@@ -19912,7 +19912,7 @@ q=A.aii(null,"Raleway",B.z0,B.ts)
 n=A.ah(["/login/",new A.afO(),"/register/",new A.afP(),"/forgotPassword/",new A.afQ(),"/home/",new A.afR(),"/settings/",new A.afS(),"/newNote/",new A.afT()],t.N,t.Ab)
 if($.D==null)A.aoe()
 m=$.D
-m.Oc(new A.xc(o,n,"Flutter Notes App",q,!1,null))
+m.Oc(new A.xc(o,n,"Flutter Notes",q,!1,null))
 m.CS()
 return A.M(null,r)}})
 return A.N($async$S_,r)},
