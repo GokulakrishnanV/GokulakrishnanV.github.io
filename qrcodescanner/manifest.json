@@ -1,6 +1,6 @@
 {
-    "name": "sample_app",
-    "short_name": "sample_app",
+    "name": "sample_app_v02",
+    "short_name": "sample_app_v02",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
