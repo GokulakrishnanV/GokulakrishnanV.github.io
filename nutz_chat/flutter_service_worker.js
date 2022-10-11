@@ -3,9 +3,9 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "main.dart.js": "1e3e035708c586e2d80d9b887cd54aae",
-"index.html": "99becfd661f9692d6e7d1d7468aa0df7",
-"/": "99becfd661f9692d6e7d1d7468aa0df7",
+  "main.dart.js": "7aa15bbe3971a1c11515dfd81755014f",
+"index.html": "dc430aab91fc247db7ccbd6a895d2814",
+"/": "dc430aab91fc247db7ccbd6a895d2814",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
@@ -17,7 +17,7 @@ const RESOURCES = {
 "assets/assets/images/Doodle-PC.jpg": "6899c283e3ceac161b373cfbab53f744",
 "assets/fonts/MaterialIcons-Regular.otf": "95db9098c58fd6db106f1116bae85a0b",
 "assets/shaders/ink_sparkle.frag": "d80c304defec03eadeb1b637a814a3b2",
-"assets/NOTICES": "fb9e9695eff13a72ecc9316559bef51f",
+"assets/NOTICES": "ceaedbc92fd3ae3cf32ad23d501f6ffb",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
 "canvaskit/profiling/canvaskit.wasm": "95a45378b69e77af5ed2bc72b2209b94",
 "canvaskit/profiling/canvaskit.js": "38164e5a72bdad0faa4ce740c9b8e564",
