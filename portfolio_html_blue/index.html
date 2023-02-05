@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Gokul's Portfolio</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="GokulakrishnanV, Gokul's porfolio, porfolio, Nutz, Flutter developer" />
+    <meta name="description" content="GokulakrishnanV's Portfolio using HTML, CSS and JavaScript" />
+    <meta name="author" content="GokulakrishnanV" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&family=Qwigley&display=swap"
+        rel="stylesheet" />
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+</head>
+
+<body>
+    <div class="row top-nav" id="navbar">
+        <a href="#" class="cursive text text-lg">GK</a>
+        <nav class="nav-links">
+            <a href="#" class="text-grey">Home</a>
+            <a href="#about" class="text-grey">About Me</a>
+            <a href="#services" class="text-grey">Services</a>
+            <a href="#projects" class="text-grey">Projects</a>
+            <a href="#contact" class="text-grey">Contact Me</a>
+        </nav>
+    </div>
+    <div class="content">
+        <div class="row intro">
+            <div class="intro-text">
+                <p class="text text-udl">Welcome I'm</p>
+                <h1 class="text">GokulakrishnanV</h1>
+                <h2 class="text">App and Web Full-Stack Developer</h2>
+                <p class="text-grey">I'm a seasoned Full-Stack developer</p>
+                <p class="text-grey">I can develop Websites, Cross Platform Apps, and Server-Side Code<br>using HTML,
+                    CSS, JS , Flutter and PHP</p>
+                <p class="text-grey">Currently I'm working at Nutz Technovation Pvt Ltd., Erode</p>
+                <div class="row align-start mt-1">
+                    <button class="btn btn-primary text mr-1">Hire Me</button>
+                    <button class="btn btn-secondary text">Portfolio</button>
+                </div>
+            </div>
+            <img src="assets/portfolio-person.png" alt="portfolio-person" height="650" width="600">
+        </div>
+        <div class="row align-start mt-2" id="about">
+            <div class="container">
+                <div class="dec-container border-2 ml-1 mt-1"></div>
+                <div class="dec-container"><img src="assets/desk_with_laptop.jpg" alt="desk_with_laptop.jpg"></div>
+            </div>
+            <div class="about-me-text text">
+                <h3>ABOUT ME</h3>
+                <ul class="text-grey">
+                    <li>I'm a Nano-Tech graduate studied at KSRCT, Tiruchengode, TN.</li>
+                    <li>I found my interest in developing apps and websites since then.</li>
+                    <li>I have developed more than 5 apps and websites which includes e-commerce, P2P selling,
+                        e-learning, e-info apps and URL shortner and QR generation</li>
+                    <li>I can also develop server-side code using PHP and Code-Igniter-3</li>
+                </ul>
+                <button class="btn btn-primary mt-1">Download CV</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    //When the user scrolls the page, this function is executed
+    window.onscroll = function () { stickyNavBar(); }
+    var navbar = document.getElementById("navbar");
+    //Getting the offset position of the navbar
+    var sticky = navbar.offsetTop;
+    function stickyNavBar() {
+        if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky");
+        } else {
+            navbar.classList.remove("sticky");
+        }
+    }
+</script>
+
+</html>
